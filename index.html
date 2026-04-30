@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,
+700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+  <title> My portfolio </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body> 
+
+ <div class="container">
+  <nav class="nav-lest">
+    <h2 class="logo">&lt;/Ai&gt</h2>
+    <div class="menu-icon" onclick="toggleMenu()">
+    <i class="fa-solid fa-bars"></i>
+</div>
+    <ul id="navMenu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projict">Projict</a></li>
+      <li><a href="#content">Content</a></li>
+    </ul>
+  </nav>
+
+
+   <section>
+  <div class="home">
+    
+    <div class="home-text">
+      <h1>Hi,<br>I`m <span class="ab">Abdelrahman</span><br><span class="ju">Junior Front-End Developer</span></h1>
+      
+      <div class="icon">
+        <span class="fc"><i class="fa-brands fa-facebook"></i></span>
+        
+        <span class="yt">
+          
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+        </span>
+
+        <span class="ln">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </span>
+      </div>
+    </div>
+
+    <div class="imge">
+      <img src="photo/profile-pic (1).png" alt="Abdelrahman">
+    </div>
+    
+  </div>
+
+</section>
+
+<main>
+
+  <div class="About">
+    
+    <h2 id="about">About Me</h2>
+    <div class="cont">
+         <div class="img">
+      <img src="photo/profile-pic (1).png" alt="Abdelrahman">
+    </div>
+    
+
+    <div class="about-text">
+      <p>I’m Abdelrahman Ibrahim, a Front-End Developer from Egypt.
+       I have a strong passion for web development and 
+       I enjoy learning and improving my skills in HTML, CSS, and JavaScript. 
+       I started my journey in programming recently and focused on building a solid foundation in front-end development.
+       I am currently a third-year high school student, and I dream of becoming a professional developer in the future.
+       I am currently improving my skills by building real projects such as personal websites and interactive user interfaces.
+       My goal is to become a professional Front-End Developer and create simple, clean, and user-friendly web experiences.</p>
+    </div>
+  </div>
+
+  </div>
+ 
+
+  <div class="skil" id="skills">
+
+    <h2>Skills <i class="fa-solid fa-code"></i></h2>
+
+    <div class="icon-skill">
+      <span class="ht">HTML<i class="fa-brands fa-html5"></i></span>
+     <span class="cs">CSS<i class="fa-brands fa-css3-alt"></i></span> 
+      <span class="js">JavaScript<i class="fa-brands fa-js"></i></span>
+      <span class="gi">GitHub<i class="fa-brands fa-square-github"></i></span>
+    </div>
+  </div>
+
+
+  <section class="projects">
+  <h2 id="projict">My Projects</h2>
+
+  <div class="project-box">
+
+    <div class="card">
+      <img src="photo/todo.png" >
+
+      <h3>To Do App</h3>
+
+      <p>Simple task manager using HTML CSS JS</p>
+
+      <button class="a" id="one">View Project</button>
+    </div>
+
+    <div class="card">
+      <img src="photo/moon3d.png">
+
+      <h3>Moon 3D</h3>
+
+      <p>Simple task manager using HTML CSS JS</p>
+
+      <button class="a" id="two">View Project</button>
+  
+    </div>
+    <div class="card">
+      <img src="photo/megabook.png">
+
+      <h3>Mega Book Store</h3>
+
+      <p>Simple task manager using HTML CSS JS</p>
+
+     <button class="a" id="three">View Project</button>
+    </div>
+  </div>
+</section>
+</main>
+ <!-- Contact Section -->
+<section class="contact">
+    <h2>Contact Me</h2>
+    
+
+    <form action="https://formspree.io/f/mqenkljj" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+
+        <input type="email" name="email" placeholder="Your Email" required>
+
+        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+ </div>
+
+<footer class="footer">
+    <div class="footer-content" id="content">
+
+        <h2>Abdelrahman Ibrahim</h2>
+        <p>Front-End Developer</p>
+
+        <div class="social-icons">
+            <a href="https://www.facebook.com/abdelrahman.ibrahim.907232
+          "><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://wa.me/201102566897" target="_blank""><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/abdelrahman-ibrahim-a804003a2/?trk=public-profile-join-page"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+
+        <span>© 2026 All Rights Reserved</span>
+
+    </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
