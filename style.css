@@ -383,6 +383,7 @@ html{
     outline: none;
     text-decoration: none;
     border-radius: 8px;
+    cursor: pointer;
 }
 textarea{
     height: 100px;
