@@ -8,10 +8,13 @@
 body{
     font-family: Arial, sans-serif;
     background:#0f172a;
-color:white;
+    color:white;
+    
 }
 
-
+html{
+    scroll-behavior: smooth;
+}
 .container{
     width: 80%;
     margin: auto;
@@ -585,7 +588,7 @@ color:white;
 
 .contact{
     margin-top: 150px;
-    background:#0f172a;
+    /* background:#0f172a; */
     color:#fff;
     padding:60px 20px;
     text-align:center;
