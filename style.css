@@ -195,37 +195,20 @@ html{
 
 .fc i {
     color: #1877f2;
-       text-shadow: 
-        0 0 5px #4315af,       
-        0 0 20px #6060c7,   
-        0 0 30px #6060c7,   
-        0 0 40px #6060c7,   
-        0 0 60px #6060c7;   
+  
         
     transition: 0.5s; 
 }
 
 .yt i {
     color: #ff0000; 
-       text-shadow: 
-        0 0 5px #d51313,       
-        0 0 20px #a71c1c,   
-        0 0 30px #eaeaea,   
-        0 0 40px #dc0c0c,   
-        0 0 60px #e00b0b;   
-        
+      
     transition: 0.5s; 
 }
 
 .ln i {
     color: #0a66c2; 
-       text-shadow: 
-        0 0 5px #0a66c2,       
-        0 0 20px #6060c7,   
-        0 0 30px #6060c7,   
-        0 0 40px #6060c7,   
-        0 0 60px #6060c7;   
-        
+       
     transition: 0.5s; 
 }
 
@@ -243,13 +226,7 @@ html{
     text-align: center;
     justify-content: center;
     margin-top: 150px;
-      text-shadow: 
-        0 0 5px #fff,       
-        0 0 20px #6060c7,   
-        0 0 30px #6060c7,   
-        0 0 40px #6060c7,   
-        0 0 60px #6060c7;   
-        
+   
     transition: 0.5s; 
 }
 .About p{
@@ -274,13 +251,6 @@ html{
     text-align: center;
     justify-content: center;
     margin-top: 150px;
-      text-shadow: 
-        0 0 5px #fff,       
-        0 0 20px #6060c7,   
-        0 0 30px #6060c7,   
-        0 0 40px #6060c7,   
-        0 0 60px #6060c7;   
-        
     
 }
 
@@ -324,50 +294,27 @@ html{
 
 .ht i {
      color: #E34F26; 
-      text-shadow: 
-        0 0 5px #fff,       
-        0 0 20px #aa3c21,   
-        0 0 30px #6060c7,   
-        0 0 40px #b92626,   
-        0 0 60px #c94747;   
-        
+     
     transition: 0.5s; 
     
     } 
 .cs i {
      color: #1572B6; 
     
-        text-shadow: 
-        0 0 5px #fff,       
-        0 0 20px #6060c7,   
-        0 0 30px #6060c7,   
-        0 0 40px #6060c7,   
-        0 0 60px #000000;   
-        
+      
     transition: 0.5s; 
     } 
 .js i { 
     color: #F7DF1E; 
      
-        text-shadow: 
-        0 0 5px #fff,       
-        0 0 20px #48cc57,   
-        0 0 30px #6060c7,   
-        0 0 40px #6060c7,   
-        0 0 60px #515c50;   
+       x #515c50;   
         
     transition: 0.5s; 
 } 
 .gi i{
        color: #14222d; 
     
-        text-shadow: 
-        0 0 5px #fff,       
-        0 0 20px #6060c7,   
-        0 0 30px #6060c7,   
-        0 0 40px #6060c7,   
-        0 0 60px #6060c7;   
-        
+      
     transition: 0.5s; 
 }
 
@@ -437,7 +384,10 @@ html{
     text-decoration: none;
     border-radius: 8px;
 }
-
+textarea{
+    height: 100px;
+    resize: none;
+}
 .card .a:hover{
     background: #0099cc;
 }
