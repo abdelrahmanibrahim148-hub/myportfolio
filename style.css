@@ -1,3 +1,5 @@
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+
 *{
     margin: 0;
     padding: 0;
@@ -5,16 +7,18 @@
     
 }
 
-body{
-    font-family: Arial, sans-serif;
-    background:#0f172a;
-    color:white;
+body {
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 0.02em; 
+     background: #000000; 
+    color: #f1f5f9;
     
 }
 
 html{
     scroll-behavior: smooth;
 }
+
 .container{
     width: 80%;
     margin: auto;
@@ -131,8 +135,9 @@ html{
     display: flex;
     justify-content: space-between; 
     padding: 0 10%;
-    margin-top: 200px;
+    margin-top: 150px;
 }
+
 
 .home-text h1 {
     letter-spacing: 2px;
@@ -236,13 +241,14 @@ html{
 .About img{
     width: 300px;
     position: relative;
-    top: -50px;
+    top: -30px;
     left: 70px;
 }
 .about-text{
     width: 50%;
     margin-top: 20px;
-    
+    position: relative;
+    right: 28px;
 }
 
 /* Skills */
@@ -262,7 +268,7 @@ html{
 
 .icon-skill i{
     margin-top: 30px;
-    padding: 0 100px;
+    padding: 0 50px;
     font-size: 100px;
 }
 
@@ -300,6 +306,12 @@ html{
     } 
 .cs i {
      color: #1572B6; 
+    
+      
+    transition: 0.5s; 
+    } 
+.bt i {
+     color: #0f8feb; 
     
       
     transition: 0.5s; 
@@ -345,12 +357,16 @@ html{
 }
 
 .card{
-    background:#17233d;
-    border-radius: 20px;
+   
+  background: rgba(255, 255, 255, 0.05); /* لون أبيض شفاف جداً */
+  backdrop-filter: blur(10px); /* ده اللي بيعمل تغبيشة ورا الكارت */
+  border: 1px solid rgba(255, 255, 255, 0.1); /* خط رفيع جداً بيدي إحساس الإزاز */
+  border-radius: 20px;
+
     padding: 20px;
     text-align: center;
     transition: 0.4s;
-    box-shadow: 0 0 15px rgba(0,0,0,.3);
+    
 }
 
 .card:hover{
